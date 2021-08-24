@@ -37,7 +37,7 @@ According to the software that you are using, You can also get the 3d Models, as
 Once we finished our development board; it is time to bring it to life. In order to manufacture our board, We are going to use JLCPB Services.In case that you do not have an account yet, check out the bellow link
 ►JLCPCB: https://jlcpcb.com/IAT
 
-How to Order our PCB in JLCPCB?
+**How to Order our PCB in JLCPCB?**
 Once We are register, and We logged in our account, We are ready to submit an order and receive our board in a very short time. In this case We need to update first the gerber files, which contains all the necesary information to build the pcb, You can get the gerber files in the link bellow.
 
 
