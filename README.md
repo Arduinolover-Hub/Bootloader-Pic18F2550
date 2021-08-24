@@ -40,7 +40,41 @@ Once we finished our development board; it is time to bring it to life. In order
 **How to Order our PCB in JLCPCB?**
 Once We are register, and We logged in our account, We are ready to submit an order and receive our board in a very short time. In this case We need to update first the gerber files, which contains all the necesary information to build the pcb, You can get the gerber files in the link bellow.
 
+**Upload your gerber files**
 
+**Indicatethefeatures**
+After the upload of our gerber files, We need to indicate the features of the board, in the next picture you can see the options available.
 
+**Add your shipping address** This part is very important, here you should write your currently address, where you would like to receive your pcb prototypes. It is not common but sometimes very rarely, you will need to pay extra feeds, but as I told you, it is very rarely.
 
+**Make the payment and finish the order** After you indicates this information, We continue with the payment section, These is the section where you can apply your coupons or discount codes. Basically We can complete the paymente by two general ways, Paypal or Credit card.
+
+**Receive your PCB** Days later, 7 days or few more, according to your location and custom broker process, You will receive your pcb prototypes.
+
+# Why JCLPCB?
+JLCPCB has been at the fore front of the PCB industry. With over 14-year continuous innovation and improvement based on customers' need, we have been growing fast, and becoming a leading global PCB manufacturer, who provides the rapid production of high-reliability and cost-effective PCBs and creates the best customer experience in the industry.In case that you do not have an account yet, check out the bellow link►JLCPCB: https://jlcpcb.com/IAT
+
+Most Efficient, Economic, Innovative PCB Solutions
+Higher Quality
+Lower Cost
+Faster Delivery
+JLCPCB provides a rapid production of high-reliability and cost-effective PCBs and create the best customer experience in the indrustry.
+
+# BUILDING THE BOARD
+Attached you will find the BOM (bill of materials) needed to build the PCB, as you can see in the list you can use the designator and You can check also with the schematic circuit.
+
+# THE BOOTLOADER
+The 18F2550 microcontroller has the possibility to modify its own FLASH memory under the control of a firmware, in a similar way to how the locations in its EEPROM are modified. This firmware is called “Bootloader” and it should be uploaded before to use the board, after uploaded the firmware, We can program directly from our PC to the board. Through this firmware bootloader you will be able to transfer executable programs.hex from the PC to the 18F2550 FLASH memory through the USB cable and using the software application USB HID from Mikroelektronika. This software already has its necessary drivers and automatically detects, through the USB cable, the presence of the board module with the bootloader loaded.
+
+# UPLOADING THE FIRMWARE WITH PICKIT 2
+For the first and only time, We are going to use the Pickit 2 Programmer to upload the firmware of our bootloader, once we loaded the.hex firmware, We do not need the pickit 2 again. You can use the Pickit 2, Pickit 3, Pickit 3.5, Pickit 4 or another programmer board available.
+
+# PROGRAMMING THE BOARD
+Now we are ready to program and work with our board, in the below videos You can see how to use our board, basically after We connect, We have 5 seconds to link the board with the bootloader aplications, if we pass the 5 seconds we need to press reset button or connect again the USB cable.
+https://youtu.be/kzl8o4mRO8c
+
+# THANKS
+Thank to:
+►JLCPCB: https://jlcpcb.com/IAT
+► Bootloader developers for the Pic18F2550
 
